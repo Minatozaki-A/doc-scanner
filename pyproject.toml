@@ -1,0 +1,11 @@
+[project]
+name = "doc-scanner"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "easyocr>=1.7.2",
+    "fpdf2>=2.8.7",
+    "numpy>=2.4.6",
+    "opencv-python>=4.13.0.92",
+    "pytesseract>=0.3.13",
+]
